@@ -3,12 +3,14 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs'); 
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 const { Console } = require('console');
 
 // setting Express app
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 // adding middleware 
 
@@ -19,7 +21,7 @@ app.use(express.static('./public'));
 // Adding routes to code
 
 app.use("/api", apiRoutes);
-app.use("/",htmlRoutes);
+app.use("/", htmlRoutes);
 
 // Adding listen PORT to code 
 
