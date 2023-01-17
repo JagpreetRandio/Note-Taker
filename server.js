@@ -18,8 +18,8 @@ app.use(express.static('./public'));
 
 // Adding routes to code
 
-app.use
-app.use
+app.use("/api", apiRoutes);
+app.use("/",htmlRoutes);
 
 // Adding listen PORT to code 
 
