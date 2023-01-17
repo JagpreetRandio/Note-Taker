@@ -1,0 +1,28 @@
+// Dependencies for developing code 
+
+const express = require('express');
+const path = require('path');
+const fs = require('fs'); 
+const { Console } = require('console');
+
+// setting Express app
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// adding middleware 
+
+app.use(express.urlencoded({ extended: true}));
+app.use(express.json());
+app.use(express.static('./public'));
+
+// Adding routes to code
+
+app.use
+app.use
+
+// Adding listen PORT to code 
+
+app.listen(PORT, () => {
+    console.log (`API server is now working on port ${PORT}! `)
+})
