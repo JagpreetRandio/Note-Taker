@@ -40,7 +40,7 @@ To install the Note Taker App, follow the steps below:
 
 Make sure you have all of the packages installed before starting this step! 
 
-Using the line of code below, you will be directed to copy "http://localhost:3002" in your browser to use the Note Taker App.  
+After entering the line of code below in your terminal, you will be directed to copy "http://localhost:3002" in your browser to use the Note Taker App.  
 
 ```npm start ```
 
