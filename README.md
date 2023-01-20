@@ -41,8 +41,8 @@ Make sure you have all of the packages installed before starting this step!
 ## Screenshots
 
 
-![alt text](images/screenshot1) 
-![alt text](images/screenshot2) 
+![alt text](images/screenshot1.png) 
+![alt text](images/screenshot2.png) 
 
 ## Credits
 
