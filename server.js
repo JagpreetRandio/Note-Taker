@@ -26,5 +26,5 @@ app.use("/", htmlRoutes);
 // Adding listen PORT to code 
 
 app.listen(PORT, () => {
-    console.log (`API server is now working on port ${PORT}! `)
+    console.log (`API server is now working on port ${PORT}! Enter http://localhost:3002 in the browser and check out the Note Taker App!`)
 })
