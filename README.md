@@ -3,6 +3,7 @@
 
 ## Table of contents
 * [Description](#description)
+* [Heroku Link](#heroku-link)
 * [Video](#video)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,7 +14,11 @@
 
 ## Description
 
+The Note Taker app uses Express.js framework to create, save, and delete notes. 
 
+## Heroku Link
+
+https://express-note-taker-2023.herokuapp.com/
 
 ## Video
 
@@ -21,10 +26,10 @@ https://user-images.githubusercontent.com/115323708/213606685-b3629f54-113e-43d7
 
 ## Installation
 
-To use the team profile generator, follow the steps below:
+To install the Note Taker App, follow the steps below:
 
 1. Clone the repository
- - 
+ - https://github.com/JagpreetRandio/Note-Taker
 
 2. Install the Dependencies 
 
@@ -35,14 +40,15 @@ To use the team profile generator, follow the steps below:
 
 Make sure you have all of the packages installed before starting this step! 
 
+Using the line of code below, you will be directed to copy "http://localhost:3002" in your browser to use the Note Taker App.  
+
 ```npm start ```
 
 
 ## Screenshots
 
-
-![alt text](images/screenshot1.png) 
 ![alt text](images/screenshot2.png) 
+![alt text](images/screenshot1.png) 
 
 ## Credits
 
